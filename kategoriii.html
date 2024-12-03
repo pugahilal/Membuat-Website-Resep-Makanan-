@@ -1,0 +1,190 @@
+<html>
+ <head>
+  <title>
+   Kategori Resep Masakan Indonesia
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #ff7043;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .category-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            justify-content: center;
+            margin: 20px;
+        }
+        .category-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 20px;
+        }
+        .category-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .category-item h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .category-item a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+        footer {
+            background-color: #ff5722;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <h1>
+    Resep Masakan Indonesia
+   </h1>
+  </header>
+  <nav>
+   <ul>
+    <li>
+     <a href="index.html">
+      Beranda
+     </a>
+    </li>
+    <li>
+     <a href="#footer">
+      Tentang Kami
+     </a>
+    </li>
+   </ul>
+  </nav>
+  <div class="category-list">
+   <div class="category-item">
+    <img alt="Gambar kategori masakan, nasi goreng dengan telur mata sapi di atasnya" height="200" src="https://storage.googleapis.com/a1aa/image/rcfL6QJq4mTyECuqCU6AE9yJQeqqGNKFV6fj2w9BPwbnjfaPB.jpg" width="300"/>
+    <h3>
+     Nasi
+    </h3>
+    <a href="kategori-nasi.html">
+     Lihat Resep
+    </a>
+   </div>
+   <div class="category-item">
+    <img alt="Gambar kategori masakan, rendang daging sapi dengan bumbu kental" height="200" src="https://storage.googleapis.com/a1aa/image/k4axW5OTgjLdL9WCKNlmOWwQRUeCRVoQl8GYM3ehF8Dxxv2TA.jpg" width="300"/>
+    <h3>
+     Daging
+    </h3>
+    <a href="kategori-daging.html">
+     Lihat Resep
+    </a>
+   </div>
+   <div class="category-item">
+    <img alt="Gambar kategori masakan, sate ayam dengan bumbu kacang" height="200" src="https://storage.googleapis.com/a1aa/image/NfegKfbWjGZdZp0cd5pa6Xyq8CukACeqv8uDDgJjiA1oHf1eE.jpg" width="300"/>
+    <h3>
+     Ayam
+    </h3>
+    <a href="kategori-ayam.html">
+     Lihat Resep
+    </a>
+   </div>
+   <div class="category-item">
+    <img alt="Gambar kategori masakan, gado-gado dengan bumbu kacang" height="200" src="https://storage.googleapis.com/a1aa/image/ai4YHkgaNIYQPBPVEzTHah2dCf4JDbNdebXCDqa4ktR1xv2TA.jpg" width="300"/>
+    <h3>
+     Sayuran
+    </h3>
+    <a href="kategori-sayuran.html">
+     Lihat Resep
+    </a>
+   </div>
+   <div class="category-item">
+    <img alt="Gambar kategori masakan, bakso dengan kuah bening" height="200" src="https://storage.googleapis.com/a1aa/image/c5ZGSLp9qBInC1F3d84MubGmfXh5i4DAHPPDFtKTFwZ84X7JA.jpg" width="300"/>
+    <h3>
+     Sup
+    </h3>
+    <a href="kategori-sup.html">
+     Lihat Resep
+    </a>
+   </div>
+   <div class="category-item">
+    <img alt="Gambar kategori masakan, mie goreng dengan sayuran dan telur" height="200" src="https://storage.googleapis.com/a1aa/image/Q7C8sSWhePSIeUuxaEfwN0vCZPrxJcuSDRtNJVdntAXvjfaPB.jpg" width="300"/>
+    <h3>
+     Mie
+    </h3>
+    <a href="kategori-mie.html">
+     Lihat Resep
+    </a>
+   </div>
+  </div>
+  <footer id="footer">
+   <p>
+    © 2023 Resep Masakan Indonesia. All rights reserved.
+   </p>
+   <div class="social-icons">
+    <a href="#">
+     <i class="fab fa-facebook-f">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-instagram">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-whatsapp">
+     </i>
+    </a>
+   </div>
+  </footer>
+  <script src="app.js">
+  </script>
+ </body>
+</html>
